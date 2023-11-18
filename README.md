@@ -1,1 +1,2 @@
-# backend_test_homework
+# character_creation_module
+Модуль создания персонажа для RPG игры
