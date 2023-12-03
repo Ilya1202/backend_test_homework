@@ -88,7 +88,7 @@ class SportsWalking(Training):
     def get_spent_calories(self):
         return ((K_1 * self.weight
                 + ((self.get_mean_speed() * M_IN_KM / 60) ** 2
-                / (self.height / 100) * K_2 * self.weight))
+                   / (self.height / 100) * K_2 * self.weight))
                 * self.duration * 60)
 
     def show_training_info(self) -> InfoMessage:
